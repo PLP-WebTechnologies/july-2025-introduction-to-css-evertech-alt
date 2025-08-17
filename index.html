@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <title>Styled Web Page</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header>
+                <nav>
+                    <div class="navigate">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#order">Order</a>
+                    </div>
+                </nav>
+                <div>
+                    <h1>Welcome to our bakery site</h1>
+                    <p>We bake all types of delicious flour-based baked goods made in the oven such as cakes,bread,cookies ,doughnuts,bagels,pies.</p>
+                    <a href="#order" class="button">Click to Order</a>
+                </div>
+            </header>
+
+            <section class="about">
+                <h2>About our business</h2>
+                <p>We offer freshly baked goods.Orders made from 8am are delivered on the same day while order made after 6pm are made on the next day in the morning.We also offer training classes for individuals who aspire to learn how to bake various items including pizza.What are you waiting for <strong>ORDER NOW</strong></p>
+            </section>
+            <section class="order">
+                <h2>Make your Order Today</h2>
+                <div class="orderdetails">
+                    <label for="name">Your name:</label>
+                    <input type="name" id="name" name="name" required placeholder="Your name">
+
+                    <label for="email">Your email: </label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+
+                    <label for="message" >Order Detail:</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Your Order Details"></textarea>
+                    
+                    <button type="submit">Submit Order</button>
+                </div>
+            </section>
+        </body>
+    </html>
